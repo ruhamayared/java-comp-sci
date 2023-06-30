@@ -1,4 +1,4 @@
-public class calcArea {
+public class calcArea2 {
 
     public static double calcArea(int radius) {
         return Math.PI * Math.pow(radius, 2);
