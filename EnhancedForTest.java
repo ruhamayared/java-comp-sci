@@ -3,6 +3,8 @@ public class EnhancedForTest {
     public static void main(String[] args) {
         int[] x = { 1, 2, 3, 4, 5 };
         int sum = 0;
+        double average = 0.0;
+        int total = 0;
 
         // for Each loop - enhanced for loop - usually used for arrays to iterate
         // through them
@@ -18,6 +20,12 @@ public class EnhancedForTest {
 
             System.out.println(sum);
         }
+
+        for (int i : x) {
+            average = (total += i) / x.length;
+        }
+
+        System.out.println(average);
     }
 
     // The difference between the two is that the enhanced for loop is used for
