@@ -37,3 +37,9 @@ public class MountainBike extends Bicycle {
         setSpeed(getSpeed() + (increment / 2));
     }
 }
+
+// How does Java know what the Bicycle class is?
+// Java looks for the Bicycle class in the same directory as the MountainBike
+// class
+// What if the Bicycle class is in a different directory?
+// You need to import the Bicycle class
